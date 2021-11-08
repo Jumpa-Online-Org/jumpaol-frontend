@@ -1,0 +1,23 @@
+.text-red {
+    color: red !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+#navbar, footer {
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.c-main {
+    padding: 40px 100px;
+    background-color: #F2F2F2;
+}
+
+footer .footer-up {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 100px 10px 100px;
+    gap: 40px;
+}
