@@ -13,8 +13,8 @@ const TheHeader = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="m-auto" style={{fontSize: '16px'}}>
-                        <Nav.Link href="#home" className="px-3">HOME</Nav.Link>
-                        <Nav.Link href="#kampusiana" className="px-3">KAMPUSIANA</Nav.Link>
+                        <Nav.Link href="/home" className="px-3">HOME</Nav.Link>
+                        <Nav.Link href="/detail" className="px-3">KAMPUSIANA</Nav.Link>
                         <NavDropdown title="GAYA" id="basic-nav-dropdown" className="px-2">
                             <NavDropdown.Item href="#action/3.1">GAYA1</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">GAYA2</NavDropdown.Item>

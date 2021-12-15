@@ -45,10 +45,10 @@ const Galeri = () => {
                     removeArrowOnDeviceType={["tablet", "mobile"]}
                     itemClass="carousel-item-padding-40-px"
                     >
-                    <div className="mx-3"><img src="images/popular/popular-1.png"></img></div>
-                    <div className="mx-3"><img src="images/popular/popular-2.png"></img></div>
-                    <div className="mx-3"><img src="images/popular/popular-3.png"></img></div>
-                    <div className="mx-3"><img src="images/popular/popular-4.png"></img></div>
+                    <div className="mx-3"><img src="images/popular/popular-1.png" alt='galeri-img-1' /></div>
+                    <div className="mx-3"><img src="images/popular/popular-2.png" alt='galeri-img-2' /></div>
+                    <div className="mx-3"><img src="images/popular/popular-3.png" alt='galeri-img-3' /></div>
+                    <div className="mx-3"><img src="images/popular/popular-4.png" alt='galeri-img-4' /></div>
                 </Carousel>
             </div>
         </div>
