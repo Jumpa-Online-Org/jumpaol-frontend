@@ -1,8 +1,8 @@
 import React from 'react'
-import Galeri from '../../components/Galeri'
-import Kampusiana from '../../components/Kampusiana'
-import LatestPost from '../../components/LatestPost'
-import Popular from '../../components/Popular'
+import Galeri from './components/Galeri'
+import Kampusiana from './components/Kampusiana'
+import LatestPost from './components/LatestPost'
+import Popular from './components/Popular'
 import './home.css'
 
 const Home = () => {

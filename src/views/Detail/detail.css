@@ -1,0 +1,43 @@
+.text-red {
+  color: red !important;
+}
+
+.text-grey {
+  color: #393939 !important;
+}
+
+.c-main {
+  background-color: #fff;
+}
+
+.detail-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.detail-header .title {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+  margin-right: 10px;
+}
+
+.detail-header .info div {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.detail-img {
+  width: 100%;
+}
+
+.detail-img img {
+  width: 100%;
+}
+
+.detail-desc {
+  font-size: 18px;
+  line-height: 38px;
+  letter-spacing: 0.05em;
+}
