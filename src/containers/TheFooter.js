@@ -2,7 +2,7 @@ import React from 'react'
 
 const TheFooter = () => {
     return (
-        <footer fixed={false}>
+        <footer>
             <div className="footer-up">
                 <div className="d-flex flex-column">
                     <h3 href="#" className="text-red">JUMPA</h3>

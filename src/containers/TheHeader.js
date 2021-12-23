@@ -9,7 +9,7 @@ const TheHeader = () => {
     return (
         <Navbar expand="lg" className="p-4 shadow-sm" id="navbar">
             <Container className="justify-content-center">
-                <Navbar.Brand href="#home">JumpaOL</Navbar.Brand>
+                <Navbar.Brand href="/home">JumpaOL</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="m-auto" style={{fontSize: '16px'}}>

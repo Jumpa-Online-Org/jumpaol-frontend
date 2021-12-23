@@ -1,0 +1,11 @@
+.title-list {
+  font-size: 48px;
+  border-bottom: 2px solid rgba(0, 0, 0, .6);
+  margin-bottom: 50px;
+}
+
+.content-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
