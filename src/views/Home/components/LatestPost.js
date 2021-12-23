@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const LatestPost = () => {
     return (
@@ -7,7 +8,27 @@ const LatestPost = () => {
                 <div className="text-lp mb-4">Latest <span className="text-red">Post</span></div>
                 <hr className="line-lp"></hr>
                 <div className="seeall-lp">
-                    <a href="#see-all" className="text-red">see all</a>
+                    <Link
+                        to={{
+                            pathname: '/list',
+                            state: {
+                                data: {
+                                    title: 'LatestPost',
+                                    data: [
+                                        {id: 1},
+                                        {id: 2},
+                                        {id: 3},
+                                        {id: 4},
+                                        {id: 5},
+                                        {id: 6},
+                                    ]
+                                }
+                            }
+                        }}
+                    >
+                        <span className="text-red" id='seeall'>see all</span>
+                    </Link>
+                    {/* <a href="#see-all" className="text-red">see all</a> */}
                 </div>
             </div>
             <div className="content-lp">

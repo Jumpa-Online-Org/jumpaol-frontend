@@ -6,4 +6,18 @@
 a {
   color: black !important;
   font-weight: 500;
+  text-decoration: none !important;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-red {
+  color: red !important;
+}
+
+img {
+  width: 100% !important;
 }

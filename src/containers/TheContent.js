@@ -20,7 +20,7 @@ const loading = (
 const TheContent = () => {
   return (
     <main className="c-main">
-      <div fluid>
+      <div>
         <Suspense fallback={loading}>
           <Switch>
             {routes.map((route, idx) => {
